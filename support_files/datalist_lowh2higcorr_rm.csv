@@ -1,0 +1,117 @@
+folder,trait,Full trait name,Domain,N,Ncase,Ncontrol,Ancestry,Remove,notes
+2017_2,PAT,Pericardial adipose tissue volume,Adipose,"18,332","","",>85% EUR,N,signage indicates direction of effect relative to allele1
+2017_2,SAT,Subcutaneous adipose tissue volume,Adipose,"18,332","","",>85% EUR,N,""
+2017_2,VAT,Visceral adipose tissue volume,Adipose,"18,332","","",>85% EUR,N,""
+2017_2,VATHU,Visceral adipose tissue attenutation,Adipose,"18,332","","",>85% EUR,N,""
+2018_GIANT,BMI18,BMI,Anthropometric,"700,000","","",EUR,N,""
+2018_GIANT,Height18,Height,Anthropometric,"700,000","","",EUR,N,""
+2018_GIANT,WHR18,Waist-hip ratio,Anthropometric,"694,649","","",EUR,N,""
+2016_22,body_fat_pct,Body fat percentage,Anthropometric,100716,"","",89% EUR,N,""
+2015_4,CD,Crohn's disease,Autoimmune disease,"","5,956","14,927",90% EUR,N,""
+2015_4,UC,Ucerative colitis,Autoimmune disease,"","6,968","20,464",90% EUR,N,""
+2014_10,RA,rheumatoid arthritis,Autoimmune disease,"","14,361","43,923",EUR,N,""
+2019_2,UACR,Urinary albumin/creatinine ratio,Biomarker,"328,289","","",EUR,Y_UKB,UK Biobank
+2019_2,UKUCr,Urinary potassium/creatinine ratio,Biomarker,"328,289","","",EUR,Y_UKB,UK Biobank
+2019_2,UNaUCr,Urinary sodium/creatinine ratio,Biomarker,"328,289","","",EUR,Y_UKB,UK Biobank
+2017_8,x25hydroxyvitaminD,25-hydroxyvitamin D levels,Biomarker,"42,274","","",EUR,N,""
+2017_23,MCP1,Monocyte chemotactic protein-1 (CCL2),Biomarker,8293,"","",EUR,N,""
+2013_5,HDL,HDL,Biomarker,"188,577","","",EUR,N,""
+2013_5,LDL,LDL,Biomarker,"188,577","","",EUR,N,""
+2013_5,TC,TC,Biomarker,"188,577","","",EUR,N,""
+2013_5,TG,TG,Biomarker,"188,577","","",EUR,N,""
+2012_3,fasting_glucose,Fasting glucose,Biomarker,"58,074","","",EUR,N,From non-diabetic patients
+2012_3,ln_fasting_insulin,Fasting insulin (log transformed),Biomarker,"51,750","","",EUR,N,From non-diabetic patients
+2012_10,adiponectin,Adiponectin,Biomarker,"29,347","","",EUR,N,""
+2012_1,UA,Serum urate,Biomarker,"110,347","","",EUR,N,""
+2010_3,x2hrGlucose,2h glucose tests,Biomarker,"15,234","","",EUR,N,""
+2010_2,HbA1c,Glycated hemoglobin,Biomarker,"46,368","","",EUR,N,""
+2010_15,ln_HOMA_IR,ln HOMA for insulin resistance,Biomarker,"37,037","","",EUR,N,"A2 can be """"""""AGGAAT"""""""", possibly indels. From UKBiobank."
+2016_1,baso,Basophil count,blood cell traits,"173,480","","",EUR,N,""
+2016_1,eo,Eosinophil count,blood cell traits,"173,480","","",EUR,N,""
+2016_1,hct,Hematocrit,blood cell traits,"173,480","","",EUR,N,""
+2016_1,hlr,High light scatter reticulocyte count,blood cell traits,"173,480","","",EUR,N,""
+2016_1,irf,Immature fraction of reticulocytes,blood cell traits,"173,480","","",EUR,N,""
+2016_1,lymph,Lymphocyte count,blood cell traits,"173,480","","",EUR,N,""
+2016_1,mchc,Mean corpuscular hemoglobin concentration,blood cell traits,"173,480","","",EUR,N,""
+2016_1,mcv,Mean corpuscular volume,blood cell traits,"173,480","","",EUR,N,""
+2016_1,mono,Monocyte count,blood cell traits,"173,480","","",EUR,N,""
+2016_1,mpv,Mean platelet volume,blood cell traits,"173,480","","",EUR,N,""
+2016_1,myeloid_wbc,Myeloid white cell count,blood cell traits,"173,480","","",EUR,N,""
+2016_1,pct,Plateletcrit,blood cell traits,"173,480","","",EUR,N,""
+2016_1,pdw,Platelet distribution width,blood cell traits,"173,480","","",EUR,N,""
+2016_1,plt,Platelet count,blood cell traits,"173,480","","",EUR,N,""
+2016_1,rbc,Red blood cell count,blood cell traits,"173,480","","",EUR,N,""
+2016_1,rdw,Red cell distribution width,blood cell traits,"173,480","","",EUR,N,""
+2016_1,ret,Reticulocyte count,blood cell traits,"173,480","","",EUR,N,""
+2016_1,wbc,White blood cell count,blood cell traits,"173,480","","",EUR,N,""
+2018_2,BMDheel,BMD (heel),Bone and tendon,"394,929","","",EUR,Y_UKB,UK Biobank
+2017_9,TB_LM,Total body lean mass (TB-LM),Bone and tendon,"10,414","","",80% EUR,N,""
+2017_9,TBLH_BMD,Total body less head bone mineral density,Bone and tendon,"10,414","","",80% EUR,N,""
+2017_18,rotator_cuff,Rotator cuff injury,Bone and tendon,"","8,358","94,622",81% EUR,N,No A2
+2017_15,plantar_fasciitis,Plantar fasciitis,Bone and tendon,"","21,624","80,879",81% EUR,N,No A2; imputed to 1000 Genomes
+2017_13,achilles,Achilles heel injury,Bone and tendon,"","5,148","97,831",81% EUR,N,No A2
+2015_8,BMDfn,Bone mineral density (femoral neck),Bone and tendon,"32,965","","",EUR,N,""
+2015_8,BMDls,Bone mineral density (lumbar spine),Bone and tendon,"32,965","","",EUR,N,""
+2018_PrCa,PrCa,Prostate cancer,Cancer,"","44,825","27,904",EUR,N,""
+2017_BrCa,BrCa,Breast cancer,Cancer,"","106,571","95,762",EUR,N,""
+2018_7,RHGS,Relative hand grip strength,Common health indicator,"223,315","","",EUR,Y_UKB,UK Biobank: average of measurements of right and left hand divided by weight
+2018_6,DBP,Diastolic blood pressure (ICBP+UKB),Common health indicator,"757,601","","",EUR,Y_UKB,Includes UK Biobank
+2018_6,SBP,Systolic blood pressure (ICBP+UKB),Common health indicator,"757,601","","",EUR,Y_UKB,Includes UK Biobank
+2017_6,insomnia,Insomnia,Common health indicator,"","32,384","80,622",EUR,Y_UKB,"A2 can be """"""""AGGAAT"""""""", possibly indels. From UKBiobank."
+2017_5,male_baldness,Male baldness,Common health indicator,"52,874","","",EUR,N,Male pattern baldness
+2017_4,tiredness,Self-reported tiredness,Common health indicator,"108,976","","",EUR,N,""
+2017_1,gait_speed,Gait speed,Common health indicator,"34,066","","",EUR,N,""
+2014_7,heart_rate,Heart rate,Common health indicator,"93,158","","",EUR,N,""
+2016_birth_weight,birth_weight16,Birth weight,Early growth,"143,677","","",EUR,N,""
+2016_9,childhood_aggression_behavior,Childhood agression behavior,Early growth,"18,988","","",EUR,N,""
+2016_7,children_sleep_basic,Sleep duration in children,Early growth,"10,554","","",EUR,N,"Using the basic model, not adjusted for BMI"
+2015_3,childhood_BMI,Childhood BMI,Early growth,"35,668","","",EUR,N,""
+2015_19,birth_length,Birth length,Early growth,"28,459","","",EUR,N,""
+2014_3,childhood_intelligence,Childhood intelligence,Early growth,"12,441","","",EUR,N,""
+2012_7,head_circumference,Head circumference in infancy,Early growth,"10,768","","",EUR,N,""
+2013_9,VRE,Visual refractive error,Eye,"7,280","","",EUR,N,""
+2017_19,pvRSA_HF,Peak-valley respiratory sinus arrhythmia or high frequency power,Heart,"24,342","","",EUR,N,""
+2017_19,RMSSD,Root mean square of the successive differences of inter beat intervals,Heart,"26,785","","",EUR,N,""
+2017_19,SDNN,Standard deviation of the normal-to-normal inter beat interval,Heart,"28,112","","",EUR,N,All three traits in 2017_19 measures heart rate variability (HRV)
+2016_25,ST80_anterior,ST80 anterior,Heart,"15,943","","",EUR,N,""
+2016_25,ST80_inferior,ST80 inferior,Heart,"15,943","","",EUR,N,""
+2016_25,ST80_lateral,ST80 lateral,Heart,"15,943","","",EUR,N,""
+2016_25,ST80_septal,ST80 septal,Heart,"15,943","","",EUR,N,""
+2016_25,Twave_anterior,Twave anterior,Heart,"15,943","","",EUR,N,""
+2016_25,Twave_inferior,Twave inferior,Heart,"15,943","","",EUR,N,""
+2016_25,Twave_septal,Twave septal,Heart,"15,943","","",EUR,N,""
+2015_5,CAD,Coronary artery disease,Heart,"","60,801","123,504",77% EUR,N,Went through double genomic control
+2018_intelligence,intelligence,Intelligence,"Intelligence, cognition and education","269,867","","",EUR,N,""
+2018_EACP,EduYears18,Years of education,"Intelligence, cognition and education","766,345","","",EUR,N,""
+2016_4,Memory,Memory,"Intelligence, cognition and education","112,067","","",EUR,N,UK Biobank
+2016_4,Reaction_time,Reaction time,"Intelligence, cognition and education","111,483","","",EUR,N,UK Biobank
+2015_CKD,eGFRcrea,Glomerular filtration rate by serum creatinine,Kidney function,"133,814","","",EUR,N,2015_CKD is the same as 2016_14
+2015_CKD,eGFRcys,Glomerular filtration rate by serum cystatin,Kidney function,"33,152","","",EUR,N,2015_CKD is the same as 2016_14
+2014_2,longevity,Longevity (>=85),Longevity,"","7,729","16,121",EUR,N,""
+2018_T2D,T2D18,Type 2 diabetes,Metabolic disease,"","74,124","824,006",EUR,N,""
+2016_10,ALS,Amyotrophic lateral sclerosis,Neurologic disease,"","12,577","23,475",EUR,N,""
+2013_4,alzheimer,Alzheimer's disease,Neurologic disease,"","17,008","37,154",EUR,N,""
+2018_BIP,bip,Bipolar disorder,Psychiatric disease,"","20,129","21,524",EUR,N,""
+2017_asd,asd,Autism spectrum disorder,Psychiatric disease,"","18,382","27,969",EUR,N,""
+2017_adhd,adhd,ADHD,Psychiatric disease,"","20,183","35,191",Mainly EUR,N,""
+2014_14,scz,Schizophrenia,Psychiatric disease,"","33,640","43,456",90% EUR,N,""
+2017_3,menarche,Age at menarche,Reproductive,"252,514","","",EUR,N,We still use this data though it includes UK Biobank - the earlier data (2014_12) were rounded to 2 decimal places.
+2016_17,AFB,Age at first birth,Reproductive,"251,151","","",EUR,N,""
+2016_17,NEB,Number of children ever born,Reproductive,"343,072","","",EUR,N,""
+2015_2,menopause,Age at natural menopause,Reproductive,"69,360","","",EUR,N,""
+2010_7,asthma,Asthma,Respiratory disease,"","10,365","16,110",EUR,N,""
+2015_6,atoptic_derm,Atopic dermatitis,Skin disease,"","10,788","30,047",EUR,N,Also known as eczema; acknowledges the EAGLE eczema consortium
+2019_smkalch,AgeofInitiation,Age of smoking initiation,Social science and lifestyle,"341,427","","",EUR,N,""
+2019_smkalch,CigarettesPerDay,Cigarettes per day,Social science and lifestyle,"337,334","","",EUR,N,""
+2019_smkalch,DrinksPerWeek,Drinks per week,Social science and lifestyle,"941,280","","",EUR,N,""
+2019_smkalch,SmokingCessation,Smoking cessation,Social science and lifestyle,"","","",EUR,N,Binary. Total sample size is 547219.
+2019_smkalch,SmokingInitiation,Smoking initiation,Social science and lifestyle,"","","",EUR,N,Binary. Total sample size is 1232091.
+2018_CNCR_NEUR_DEP,DS,Depressive symptoms,Social science and lifestyle,"381,455","","",EUR,N,""
+2018_CNCR_NEUR_DEP,neuroticism,Neuroticism,Social science and lifestyle,"390,278","","",EUR,N,""
+2016_6,Income,Household income,Social science and lifestyle,"112,151","","",EUR,N,UK Biobank
+2016_6,Townsend,Social deprivation,Social science and lifestyle,"112,151","","",EUR,N,UK Biobank
+2016_5,SRH,Self-rated health,Social science and lifestyle,"111,749","","",EUR,N,UK Biobank
+2016_18,extraversion,Extraversion,Social science and lifestyle,"63,060","","",EUR,N,""
+2016_16,SWB,subjective well-being,Social science and lifestyle,"298,420","","",EUR,N,""
+2012_13,conscientiousness,Conscientiousness,Social science and lifestyle,"17,375","","",EUR,N,""
+2012_13,openness,Openness,Social science and lifestyle,"17,375","","",EUR,N,""
