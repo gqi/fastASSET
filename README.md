@@ -1,6 +1,6 @@
 # fastASSET: Fast ASSET using pre-screening
 
-This R package implements a fast version of ASSET for joint genetic association analysis across a large number of traits. It is developed based on ASSET, a subset-based approach for multi-trait association testing (Bhattacharjee et al, AJHG 2012). It provides a p-value of global association and a list of traits associated with each variant. fastASSET accelerates the computation by restricting subset search among the traits with suggestive level of associations. The traits are selected by a liberal p-value threshold. The input is GWAS summary statistics for one SNP across multiple traits.
+fastASSET is an R package for joint genetic association analysis across a large number of traits. It is an accelerated version of the *as*sociation analysis based on sub*set*s (ASSET) method (Bhattacharjee et al, AJHG 2012). The input is GWAS summary statistics for one genetic variant across multiple traits, and the output is a p-value for global association and a list of associated traits. fastASSET accelerates the computation by restricting subset search among the traits with suggestive level of associations, defined by a liberal p-value threshold. 
 
 See the original `ASSET` R package for more information: <https://bioconductor.org/packages/release/bioc/html/ASSET.html>
 
@@ -43,4 +43,4 @@ Qi G, Chhetri SB, Ray D, Dutta D, Battle A, Bhattacharjee S*, Chatterjee N*. Gen
 
 *Corresponding authors.
 
-Other custom scripts used in this paper are in folders `simulations` and `analysis`.	
+See folders `simulations` and `analysis` for other custom scripts used in the paper.	
