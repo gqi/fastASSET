@@ -43,4 +43,4 @@ Qi G, Chhetri SB, Ray D, Dutta D, Battle A, Bhattacharjee S*, Chatterjee N*. Gen
 
 *Corresponding authors.
 
-Other scripts for simulations studies and data analysis used in this paper are in folders `simulations` and `analysis`.	
+Other custom scripts used in this paper are in folders `simulations` and `analysis`.	
