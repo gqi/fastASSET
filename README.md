@@ -39,7 +39,7 @@ Call the function by `fastASSET::fast_asset()` to access the latest version.
 
 If you use this package or other custom scripts from this repository, please cite:
 
-Qi G, Chhetri SB, Ray D, Dutta D, Battle A, Bhattacharjee S*, Chatterjee N*. Genome-wide multi-trait analysis across 116 studies identifies complex patterns of pleiotropy and unique trait-specific loci. (2022).
+Qi, G., Chhetri, S. B., Ray, D., Dutta, D., Battle, A., Bhattacharjee, S.*, & Chatterjee, N.* (2022). Genome-Wide Large-Scale Multi-Trait Analysis Characterizes Global Patterns of Pleiotropy and Unique Trait-Specific Variants. bioRxiv.
 
 *Corresponding authors.
 
