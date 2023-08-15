@@ -109,7 +109,8 @@ scr_transform = function(betahat, SE, SNP, traits_i, cor, block, Neff, scr_pthr 
 #' Neff=Neff, cor=ldscintmat, block=block, scr_pthr=0.05)
 #' @import ASSET
 #' @export
-fast_asset <- function(snp, traits.lab, beta.hat, sigma.hat, Neff, cor, block, scr_pthr=0.05){
+fast_asset <- function(snp, traits.lab, beta.hat, sigma.hat, Neff, cor, block,
+                       scr_pthr=0.05, max_numtraits_per_side=16){
     ind <- (!is.na(beta.hat)) & (!is.na(sigma.hat))
     beta.hat <- beta.hat[ind]
     sigma.hat <- sigma.hat[ind]
@@ -125,8 +126,8 @@ fast_asset <- function(snp, traits.lab, beta.hat, sigma.hat, Neff, cor, block, s
         # Pre-screen and adjust the summary statistics
         dt_scr <- scr_transform(betahat=beta.hat, SE=sigma.hat, SNP=snp, traits_i=traits_i,
                                 cor = cormat, block, Neff=Neff, scr_pthr = 0.05)
-        if (sum(dt_scr$betahat_orth>0)>16 | sum(dt_scr$betahat_orth<=0)>16){
-            print("Too many traits passed pre-screening, subset search can be slow. Consider using a lower scr_pthr.")
+        if (sum(dt_scr$betahat_orth>0)>max_numtraits_per_side | sum(dt_scr$betahat_orth<=0)>max_numtraits_per_side){
+            stop("Too many traits passed pre-screening, subset search can be slow. Consider using a lower scr_pthr.")
         }
 
         betahat_orth <- dt_scr$betahat_orth
