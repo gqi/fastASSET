@@ -12,7 +12,8 @@ fast_asset(
   Neff,
   cor,
   block,
-  scr_pthr = 0.05
+  scr_pthr = 0.05,
+  max_numtraits_per_side = 16
 )
 }
 \arguments{
@@ -31,6 +32,8 @@ fast_asset(
 \item{block}{A list of character vectors. Each element is a vector of study/trait names that fall into the same correlation block based on \code{cor}. Studies from different blocks are treated as independent. Studies that are not in \code{block} are treated as independent from other studies.}
 
 \item{scr_pthr}{P-value threshold for pre-screening. Only traits with p-value < scr_pthr are retained. Default to 0.05.}
+
+\item{max_numtraits_per_side}{Maximum number of traits per side for subset search. Default to be 16. The program reports an error if \code{>max_numtraits_per_side} pass pre-screening and the adjusted z-statistics have the same sign. Such SNPs take significant computational time. Increasing this number allows the program to include some of those SNPs.}
 }
 \value{
 A list of the same format as the output of \code{h.traits}.
