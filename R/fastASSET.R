@@ -119,6 +119,9 @@ fast_asset <- function(snp, traits.lab, beta.hat, sigma.hat, Neff, cor, block,
     traits_i <- traits.lab[ind]
     names(beta.hat) <- names(sigma.hat) <- names(Neff) <- traits_i
 
+    beta.hat <- beta.hat/sigma.hat/sqrt(Neff)
+    sigma.hat <- 1/sqrt(Neff)
+
     # Pre-screening is only implemented when data for >=2 traits are available
     if (sum(ind)>=2){
         cormat <- cor[ind,ind]
