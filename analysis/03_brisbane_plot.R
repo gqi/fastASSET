@@ -1,4 +1,4 @@
-## Brisbane plot - Figure 1
+## Brisbane plot - Figure 3
 # This type of figure is originally created by Yengo, Loic, et al. "A Saturated Map of Common Genetic Variants Associated with Human Height from 5.4 Million Individuals of Diverse Ancestries." bioRxiv (2022).
 
 # Step 1: repeat LD clumping
