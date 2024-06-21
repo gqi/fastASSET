@@ -39,7 +39,7 @@ Example dataset `example_rs6678982` has been provided as part of the fastASSET p
 * `Neff`: Vector of effective sample size of GWAS. For continuous traits, the effective sample size is the total sample size; for binary traits, the effective sample size is `Ncase*Ncontrol/(Ncase+Ncontrol)`.
 * `ldscintmat`: Matrix of bivariate LD score regression intercepts. It estimates the correlation of z-statistics across traits under the global null hypothesis.
 
-We have provided `ldscintmat` with this example. In real data analysis, `ldscintmat` can be obtained by running bivariate [LD score regression](https://github.com/bulik/ldsc) for each pair of traits. See the [LDSC tutorial](https://github.com/bulik/ldsc/wiki/Heritability-and-Genetic-Correlation) for running bivaraite LD score regression for a pair of traits.
+We have provided `ldscintmat` with this example. In real data analysis, `ldscintmat` can be obtained by running bivariate [LD score regression](https://github.com/bulik/ldsc) for each pair of traits. See the [LDSC tutorial](https://github.com/bulik/ldsc/wiki/Heritability-and-Genetic-Correlation) for running bivaraite LD score regression.
 
 #### 2. Create correlated trait blocks using hierarchical clustering
 
